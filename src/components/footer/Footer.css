@@ -1,0 +1,54 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5f2fdf; /* Warna sesuai dengan desain */
+  }
+  
+  .footer-links ul,
+  .footer-socials ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li,
+  .footer-socials li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .footer-links a,
+  .footer-socials a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .footer-links a:hover,
+  .footer-socials a:hover {
+    color: #5f2fdf; /* Warna hover sesuai dengan desain */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #888;
+  }
+  

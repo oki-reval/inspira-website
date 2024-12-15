@@ -1,6 +1,6 @@
 /* Header.css */
 .header {
-    background-color: #ffffff;
+    background-color:transparent;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;

@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.container {
+  position: relative;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 920px; 
+  height: 895px; 
+  background-image: url('./assets/background1.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; 
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

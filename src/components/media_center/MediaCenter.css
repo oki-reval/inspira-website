@@ -1,0 +1,122 @@
+/* Container Utama */
+.media-center {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  /* Flexbox Layout: Konten dibagi dua */
+  .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  
+  /* Bagian Gambar Ilustrasi */
+  .illustration img {
+    max-width: 85%;
+    border-radius: 12px;
+  }
+  
+  /* Bagian Teks */
+  .details {
+    width: 40%;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #8c5bff;
+  }
+  
+  /* Dropdown Buttons */
+  .dropdown {
+    margin-bottom: 1rem;
+  }
+  
+  .dropdown-button {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-head {
+    background-color: #8c5bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #7648d8;
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content {
+    /* margin-top: 0.2rem; */
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-section {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .price {
+    color: #8c5bff;
+  }
+  
+  .divider {
+    border: none;
+    height: 1px;
+    background-color: #8c5bff;
+    margin: 1rem 0;
+  }
+  
+  .feature-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .feature-list li {
+    font-size: 1rem;
+    margin: 0.8rem 0;
+    position: relative;
+    color: #555;
+  }
+  
+  .feature-list li::before {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #8c5bff;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+  }
+  

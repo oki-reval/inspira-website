@@ -6,6 +6,8 @@ import './Home.css'
 import About from "../../components/about";
 import Service from "../../components/services";
 import Reason from "../../components/reason/Reason";
+import MediaCenter from "../../components/media_center";
+import BlogPublication from "../../components/blog_publication";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <About />
       <Service />
       <Reason />
+      <MediaCenter />
+      <BlogPublication />
     </div>
   );
 };

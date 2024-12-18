@@ -1,6 +1,6 @@
 import React from 'react';
 import './Reason.css';
-import illustration from '../../assets/ilustrasi6.png'; // Pastikan path gambar benar
+import illustration from '../../assets/ilustrasi6.png';
 
 const Reason = () => {
   return (

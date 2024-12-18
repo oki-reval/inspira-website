@@ -1,0 +1,82 @@
+/* Container Utama */
+.blog-publication {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .blog-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #8c5bff;
+  }
+  
+  /* Layout Grid untuk Blog Cards */
+  .blog-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Setiap Kartu Blog */
+  .blog-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Gambar Blog */
+  .blog-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Konten dalam Kartu */
+  .card-content {
+    padding: 1.5rem;
+    text-align: left;
+  }
+  
+  .blog-card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.8rem;
+  }
+  
+  .blog-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.2rem;
+  }
+  
+  /* Tombol "More" */
+  .more-button {
+    background-color: #8c5bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-button:hover {
+    background-color: #7648d8;
+  }
+  

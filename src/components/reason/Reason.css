@@ -1,0 +1,86 @@
+/* Container Utama */
+.reason {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  /* Flexbox Layout */
+  .reason .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    gap: 10rem;
+  }
+  
+  /* Bagian Gambar */
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .illustration-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Bagian List */
+  .benefit-section {
+    flex: 1;
+    max-width: 35%;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+  }
+  
+  .title .highlight {
+    color: #8c5bff;
+  }
+  
+  .benefit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .benefit-list li {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Garis bawah pendek */
+  .benefit-list li::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #8c5bff;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .benefit-section {
+      flex: 1;
+      max-width: 65%;
+    }
+    .reason .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      gap: 5rem;
+    }
+  }
+  

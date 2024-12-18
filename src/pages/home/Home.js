@@ -5,6 +5,7 @@ import Motto from "../../components/motto/Motto";
 import './Home.css'
 import About from "../../components/about";
 import Service from "../../components/services";
+import Reason from "../../components/reason/Reason";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Motto/>
       <About />
       <Service />
+      <Reason />
     </div>
   );
 };
